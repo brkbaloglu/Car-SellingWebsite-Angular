@@ -1,0 +1,25 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    justify-content: space-between;
+}
+
+.navbar .items ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navbar .items ul li a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navbar .items ul li a:hover {
+    color: var(--yellow);
+}

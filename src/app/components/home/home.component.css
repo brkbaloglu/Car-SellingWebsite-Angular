@@ -1,0 +1,36 @@
+.home {
+    background-image: url("../../../assets/img/home-img.png");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home .container a {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    margin-bottom: 3rem;
+}
+
+.icons .box:hover {
+    color: var(--white);
+    background: var(--blue);
+}

@@ -1,0 +1,46 @@
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.services .box-container .box {
+    text-align: center;
+    padding: 3rem;
+    border-radius: .5rem;
+    border: var(--border);
+}
+
+.services .box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    font-size: 2.5rem;
+    color: var(--black);
+    background: var(--yellow);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.services .box-container .box h3 {
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.services .box-container .box p {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.services .box-container .box:hover {
+    background: var(--black);
+}
+
+.services .box-container .box:hover h3 {
+    color: #fff;
+}
+
+.services .box-container .box:hover p {
+    color: #eee;
+}

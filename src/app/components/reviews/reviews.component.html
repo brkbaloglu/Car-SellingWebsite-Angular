@@ -1,0 +1,10 @@
+<section class="reviews">
+    <h1 class="heading">Customer <span class="heading-mark">Reviews</span></h1>
+    <div class="container" *ngFor="let item of reviewitems">
+        <img src="{{item.image}}" alt="">
+        <div class="box">
+            <h1>{{item.name}}</h1>
+            <p>{{item.description}}</p>
+        </div>
+    </div>
+</section>

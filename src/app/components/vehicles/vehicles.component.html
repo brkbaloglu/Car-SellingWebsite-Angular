@@ -1,0 +1,18 @@
+<section class="vehicles">
+    <h1 class="heading">Our <span class="heading-mark">Vehicles</span></h1>
+    <div class="container" *ngFor="let item of vehicleitems">
+        <div class="box">
+            <img src="{{item.image}}" alt="">
+            <div class="text">
+                <h3>Brand: {{item.brand}}</h3>
+                <h5>Year: {{item.year}}</h5>
+                <h5>Price: {{item.price}}</h5>
+                <h5>Kilometer: {{item.kilometer}}</h5>
+                <h5>Color: {{item.color}}</h5>
+                <h5>Status: {{item.status}}</h5>
+                <h5>Engine capacity: {{item.engine_capacity}}</h5>
+                <h5>Engine power: {{item.engine_power}}</h5>
+            </div>
+        </div>
+    </div>
+</section>
